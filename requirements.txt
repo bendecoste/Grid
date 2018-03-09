@@ -5,7 +5,6 @@ tensorflow
 colorama
 keras
 h5py
-mnemonic
 python-bitcoinlib
 filelock
 coinbase
