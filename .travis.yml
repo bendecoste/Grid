@@ -15,8 +15,6 @@ install:
   - conda create -q -n test-environment python=3.6
   - source activate test-environment
   - conda install -c anaconda pytest
-  # - conda install pytorch torchvision -c pytorch
-  - pip install -r requirements.txt
   - python setup.py -q install
 
 script:
