@@ -5,6 +5,8 @@ from setuptools.command.develop import develop
 import platform
 import subprocess
 
+print(f'PLATFORM IS {platform}')
+
 
 class PostDevelopCommand(develop):
     def run(self):
