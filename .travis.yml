@@ -23,4 +23,4 @@ install:
   - python setup.py -q install
 
 script:
-  pytest
+  py.test
