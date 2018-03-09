@@ -10,6 +10,7 @@ grid.egg-info/
 *.h5
 *.log
 *.lock
+.pytest_cache/
 .openmined
 nohup.out
 data
