@@ -16,8 +16,8 @@ install:
 
   - conda create -q -n test-environment python=$TRAVIS_PYTHON_VERSION
   - source activate test-environment
-  - echo "wow omg"
-  - which python
+  # pytorch needs to be installed this way rather than through requirements
+  - conda install pytorch torchvision -c pytorch
   - python setup.py install
 
 script:
