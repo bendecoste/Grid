@@ -16,6 +16,8 @@ install:
 
   - conda create -q -n test-environment python=$TRAVIS_PYTHON_VERSION
   - source activate test-environment
+  - echo "wow omg"
+  - which python
   - python setup.py install
 
 script:
