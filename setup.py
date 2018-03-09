@@ -37,7 +37,6 @@ def read(fname):
 
 
 platform = platform.system()
-print(f'PLATFORM IS {platform}')
 
 setup(
     name="grid",
